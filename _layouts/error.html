@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+<div class="page-content">
+	<div class="container text-center">
+		{% assign error = site.data.errors[page.error] %}
+		<div class="display-1 text-muted mb-5"><i class="si si-exclamation"></i> {{ error.name }}</div>
+
+		<h1 class="h2 mb-3">اوپس! یه خطا پیدا کردی.</h1>
+		<p class="h4 text-muted font-weight-normal mb-7">{{ error.description }}&hellip;</p>
+
+		<a class="btn btn-primary" href="/">
+			<i class="fe fe-arrow-left mr-2"></i>بازگشت به صفحه اصلی
+		</a>
+	</div>
+</div>

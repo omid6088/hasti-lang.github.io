@@ -1,0 +1,5 @@
+menu:
+  - title:  صفحه اصلی مستندات
+    pages: [index]
+  - title: مستندات
+    pages: [sample]

@@ -1,0 +1,19 @@
+---
+layout: default
+title: وبلاگ
+menu: index
+---
+
+<div class="container">
+
+	{% include page-title.html title="وبلاگ" %}
+
+	<div class="row row-cards row-deck">
+		{% for article in site.posts %}
+		<div class="col-md-12">
+			{% include cards/blog-single.html article=article type="aside" aside-class="w-50" truncate=200 %}
+		</div>
+		{% endfor %}
+	</div>
+	
+</div>

@@ -1,0 +1,19 @@
+index:
+  name: خانه
+  icon: fe fe-home
+  url: ""
+
+blog:
+  name: وبلاگ
+  icon: fe fe-feather
+  url: blog
+
+docs:
+  name: مستندات
+  icon: fe fe-briefcase
+  url: docs
+
+project:
+  name: درباره پروژه
+  icon: fe fe-info
+  url: project

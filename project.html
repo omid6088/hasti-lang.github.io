@@ -1,0 +1,18 @@
+---
+title: پروژه
+layout: default
+menu: me
+---
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4">
+			{% include cards/profile.html %}
+		</div>
+		<div class="col-lg-8">
+			{% capture profile_raw %}{% include hasti-lang/about.md %}{% endcapture %}
+			{% assign profile_md = profile_raw | markdownify %}
+			{% include cards/card.html title="زبان برنامه نویسی هستی" content=profile_md %}
+		</div>
+	</div>
+</div>
