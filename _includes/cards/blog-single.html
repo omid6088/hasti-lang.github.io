@@ -25,7 +25,7 @@
 			{% if include.showProfile %}<div class="avatar avatar-md mr-3" style="background-image: url({{ site.base }}/{{ author.photo }})"></div>{% endif %}
 			<div>
 				{% if include.showProfile %}<a href="{{ site.base }}/profile.html" class="text-default">{{ author.name }} {{ author.surname }}</a> {% endif %}
-				<small class="d-block text-muted">{{ article.date | date: '%B %d, %Y' }}</small>
+				<small class="d-block text-muted">{{ article.date | jdate: '%A، %d %b %Y' | replace: "0", "۰" | replace: "1", "۱" | replace: "2", "۲" | replace: "3", "۳" | replace: "4", "۴" | replace: "5", "۵" | replace: "6", "۶" | replace: "7", "۷" | replace: "8", "۸" | replace: "9", "۹" }}</small>
 			</div>
 			<div class="ml-auto {% if liked %}text-red{% else %}text-muted{% endif %}">
 				<a href="{{ site.base }}{{ article.url }}" class="icon d-none d-md-inline-block ml-3"></a>

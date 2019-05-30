@@ -5,4 +5,5 @@ source 'https://rubygems.org' do
   gem 'jekyll-random'
   gem 'public_suffix', '3.0.0'
   gem 'jekyll-sitemap'
+  gem 'jekyll-jalali'
 end

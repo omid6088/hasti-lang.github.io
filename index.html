@@ -6,6 +6,29 @@ menu: index
 
 <div class="container">
 
-	{% include page-title.html title="صفحه اصلی" %}
+	<div class="row text-center">
+		<div class="col-md-12">
+			<img style="width: 400px" src="/assets/images/hasti-lang.png" />
+		</div>
+		<div class="col-md-12">
+			<h1>زبان برنامه‌نویسی هستی</h1>
+			<span>زبان برنامه‌نویسی تابعی فارسی، رایگان و متن‌باز برای اهداف آموزشی</span>
+		</div>
+	</div>
+	<div class="row"><br /></div>
+	<div class="row">
+		<div class="col-sm-6 col-lg-3">
+			{% include cards/icon-box.html color="dark-gray" icon="fe fe-github" description="پروژه" subtitle="سورس کد پروژه در گیت‌هاب" href="https://github.com/hasti-lang" %}
+		</div>
+		<div class="col-sm-6 col-lg-3">
+			{% include cards/icon-box.html color="blue" icon="fe fe-book-open" description="مستندات" subtitle="مشاهده مستندات و قابلیت‌ها" href="/docs" %}
+		</div>
+		<div class="col-sm-6 col-lg-3">
+			{% include cards/icon-box.html color="green" icon="fe fe-terminal" description="دانلود (به زودی)" subtitle="دانلود کامپایلر + محیط توسعه فارسی" %}
+		</div>
+		<div class="col-sm-6 col-lg-3">
+			{% include cards/icon-box.html color="yellow" icon="fe fe-feather" description="وبلاگ" subtitle="وبلاگ زبان برنامه‌نویسی هستی" href="/blog" %}
+		</div>
+	</div>
 
 </div>

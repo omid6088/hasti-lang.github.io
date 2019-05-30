@@ -10,7 +10,7 @@ blog:
 
 docs:
   name: مستندات
-  icon: fe fe-briefcase
+  icon: fe fe-book-open
   url: docs
 
 project:
